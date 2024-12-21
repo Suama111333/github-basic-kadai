@@ -1,0 +1,54 @@
+
+
+
+Mode                 LastWriteTime         Length Name                                                                       
+d-----        2024/12/21     13:42                git_challenge                                                              
+
+PS C:\kadai\git_challenge> git init
+Initialized empty Git repository in C:/kadai/git_challenge/.git/
+PS C:\kadai\git_challenge> git add hello_world.txt
+PS C:\kadai\git_challenge> git commit -m "Hello,world!"
+[main (root-commit) 307b905] Hello,world!
+ create mode 100644 hello_world.txt
+PS C:\kadai\git_challenge> git commit -m "こんにちは、世界！"
+On branch main
+nothing to commit, working tree clean
+PS C:\kadai\git_challenge> git add hello_world.txt
+PS C:\kadai\git_challenge> git commit -m "こんにちは、世界！"
+On branch main
+nothing to commit, working tree clean
+PS C:\kadai\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\kadai\git_challenge> git log
+commit 307b905baec2ab03cb6caf1aa6c46c7b86baccb3 (HEAD -> main)
+Author: suama111333 <suama.the.suama@gmail.com>
+Date:   Sat Dec 21 13:49:18 2024 +0900
+
+    Hello,world!
+PS C:\kadai\git_challenge> git add hello_world.txt       
+PS C:\kadai\git_challenge> git commit -m " こんにちは、世界！"                       
+nothing to commit, working tree clean
+PS C:\kadai\git_challenge> git add hello_world.txt
+PS C:\kadai\git_challenge> git commit -m "Add initial hello world message"
+On branch main
+nothing to commit, working tree clean
+PS C:\kadai\git_challenge> echo "Hello again!" >> hello_world.txt
+PS C:\kadai\git_challenge> git add hello_world.txt
+PS C:\kadai\git_challenge> git add hello_world.txt
+PS C:\kadai\git_challenge> git commit -m "こんにちは、世界！"
+[main 0ee78dd] こんにちは、世界！
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\kadai\git_challenge> git log
+commit 0ee78ddc1a964f81e791bfdcd3dbac310fceae0a (HEAD -> main)
+Author: suama111333 <suama.the.suama@gmail.com>
+Date:   Sat Dec 21 14:00:51 2024 +0900
+
+    こんにちは、世界！
+
+commit 307b905baec2ab03cb6caf1aa6c46c7b86baccb3
+Author: suama111333 <suama.the.suama@gmail.com>
+Date:   Sat Dec 21 13:49:18 2024 +0900
+
+    Hello,world!
+PS C:\kadai\git_challenge> 
